@@ -15,7 +15,7 @@ spring:
     admin:
       ui:
         title: Banana微服务注册中心
-        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>Banana微服务注册中心/span>
+        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>Banana微服务注册中心</span>
 eureka:
   instance:
     metadata-map:
