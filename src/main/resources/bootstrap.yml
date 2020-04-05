@@ -4,9 +4,7 @@ spring:
   cloud:
     config:
       name: eureka
-      discovery:
-        service-id: banana-config
-        enabled: true
+      uri: http://192.168.26.128:10010
   application:
     name: banana-admin
   security:
