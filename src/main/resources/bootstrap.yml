@@ -1,12 +1,12 @@
 server:
   port: 10011
 spring:
-#  cloud:
-#    config:
-#      name: eureka
-#      discovery:
-#        service-id: banana-config
-#        enabled: true
+  cloud:
+    config:
+      name: eureka
+      discovery:
+        service-id: banana-config
+        enabled: true
   application:
     name: banana-admin
   security:
