@@ -1,0 +1,26 @@
+server:
+  port: 10011
+spring:
+  cloud:
+    config:
+      name: eureka
+      discovery:
+        service-id: banana-config
+        enabled: true
+  security:
+    user:
+      name: admin
+      password: 123456
+  boot:
+    admin:
+      ui:
+        title: Banana控制中心
+        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>FM微服务控制中心</span>
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
