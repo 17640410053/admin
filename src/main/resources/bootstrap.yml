@@ -3,7 +3,7 @@ server:
 spring:
   cloud:
     config:
-      name: eureka
+      name: eureka,admin
       uri: http://192.168.26.128:10010
   application:
     name: banana-admin
@@ -21,11 +21,3 @@ eureka:
     metadata-map:
       "user.name": ${spring.security.user.name}
       "user.password": ${spring.security.user.password}
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: "*"
