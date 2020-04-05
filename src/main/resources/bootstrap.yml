@@ -7,6 +7,8 @@ spring:
       discovery:
         service-id: banana-config
         enabled: true
+  application:
+    name: banana-admin
   security:
     user:
       name: admin
