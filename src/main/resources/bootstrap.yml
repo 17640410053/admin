@@ -16,8 +16,8 @@ spring:
   boot:
     admin:
       ui:
-        title: Banana¿ØÖÆÖĞĞÄ
-        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>FMÎ¢·şÎñ¿ØÖÆÖĞĞÄ</span>
+        title: Bananaå¾®æœåŠ¡æ³¨å†Œä¸­å¿ƒ
+        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>Bananaå¾®æœåŠ¡æ³¨å†Œä¸­å¿ƒ/span>
 eureka:
   instance:
     metadata-map:
