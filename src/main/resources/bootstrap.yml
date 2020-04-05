@@ -18,6 +18,11 @@ spring:
       ui:
         title: Banana控制中心
         brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>FM微服务控制中心</span>
+eureka:
+  instance:
+    metadata-map:
+      "user.name": ${spring.security.user.name}
+      "user.password": ${spring.security.user.password}
 management:
   endpoint:
     health:
